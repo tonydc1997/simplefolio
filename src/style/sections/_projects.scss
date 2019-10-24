@@ -17,11 +17,7 @@
     }
 
     .row {
-      margin-bottom: 8rem;
-
-      @include respond(phone) {
-        margin-bottom: 4rem;
-      }
+      margin-bottom: 10rem;
     }
 
     &__text {
