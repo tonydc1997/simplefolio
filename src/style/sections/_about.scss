@@ -70,28 +70,27 @@
           }
         }
 
-        span {
+        .hero-link {
           position: relative;
           z-index: 1;
-        }
+          &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            bottom: 0;
+            left: -0.25em;
+            right: -0.25em;
+            background-color: #6ffacc;
+            transform-origin: bottom center;
+            transform: scaleY(0.1);
+            transition: all 0.1s ease-in-out;
+          }
 
-        span::before {
-          content: "";
-          position: absolute;
-          z-index: -1;
-          top: 0;
-          bottom: 0;
-          left: -0.25em;
-          right: -0.25em;
-          background-color: #6ffacc;
-          transform-origin: bottom center;
-          transform: scaleY(0.1);
-          transition: all 0.1s ease-in-out;
-        }
-
-        span:hover::before {
-          transform: scaleY(1);
-          background-color: hsla(160, 93%, 71%, 0.6);
+          &:hover::before {
+            transform: scaleY(1);
+            background-color: hsla(160, 93%, 71%, 0.6);
+          }
         }
 
         a {
