@@ -1,18 +1,19 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const common = require('./webpack.common');
-const merge = require('webpack-merge');
-const path = require('path');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const common = require("./webpack.common");
+const merge = require("webpack-merge");
+const path = require("path");
 
 module.exports = merge(common, {
-  mode: 'development',
+  mode: "development",
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: "[name].bundle.js",
+    publicPath: "/simplefolio/"
+    // path: path.resolve(__dirname, 'dist')
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/template.html',
-      favicon: './src/assets/favicon.png'
+      template: "./src/template.html",
+      favicon: "./src/assets/favicon.png"
     })
   ],
   module: {
@@ -20,9 +21,9 @@ module.exports = merge(common, {
       {
         test: /\.scss$/,
         use: [
-          'style-loader', //3. Inject styles into DOM
-          'css-loader', //2. Turns css into commonjs
-          'sass-loader'
+          "style-loader", //3. Inject styles into DOM
+          "css-loader", //2. Turns css into commonjs
+          "sass-loader"
         ] //1. Turns sass into css
       }
     ]
