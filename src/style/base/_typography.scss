@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 h1 {
   font-weight: 700;
@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: $default-font-size;
 }
 
@@ -40,9 +40,12 @@ a:hover {
 
 .text-color-main {
   background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
+    to right bottom,
+    $primary-color,
+    #007df2,
+    #0088f5,
+    #0992f8,
+    $secondary-color
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,7 +53,7 @@ a:hover {
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $primary-color;
   }
 
   &:hover {
