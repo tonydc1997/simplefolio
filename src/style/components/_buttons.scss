@@ -23,7 +23,7 @@
 
 /* Hero Style */
 
-.cta-btn--hero {
+.cta-btn--primary {
   background-image: linear-gradient(
     to right,
     #ff6561,
@@ -39,25 +39,6 @@
 
   &:hover {
     transform: translateX(6px);
-  }
-}
-
-/* Resume Style */
-.cta-btn--resume {
-  background-image: linear-gradient(
-    to right,
-    #ff6561,
-    #fe5e5a,
-    #fd5654,
-    #fc4e4d,
-    #fb4546
-  );
-  border: 2px solid transparent;
-  border-radius: 6px;
-  color: white;
-
-  &:hover {
-    transform: translateY(-6px);
   }
 }
 
