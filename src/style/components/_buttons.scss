@@ -38,44 +38,9 @@
   margin-right: 4rem;
 
   &:hover {
-    transform: translateX(5px);
+    transform: translateX(6px);
   }
 }
-
-//   // Responsive Button hero style
-//   @include respond(phone) {
-//     background-image: none;
-//     border: 2px solid $secondary-color;
-//     -webkit-text-fill-color: $primary-color;
-//   }
-
-//   &::after {
-//     background-image: linear-gradient(
-//       to right,
-//       #ff6561,
-//       #fe5e5a,
-//       #fd5654,
-//       #fc4e4d,
-//       #fb4546
-//     ); // Responsive Button hero style
-//     @include respond(phone) {
-//       background-image: none;
-//     }
-//   }
-
-//   &:hover {
-//     -webkit-text-fill-color: white;
-//     text-decoration: none;
-//     // Responsive Button hover hero style
-//     @include respond(phone) {
-//       -webkit-text-fill-color: white;
-//     }
-
-//     &::after {
-//       width: 100%;
-//     }
-//   }
-// }
 
 /* Resume Style */
 .cta-btn--resume {
