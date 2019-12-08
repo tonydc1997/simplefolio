@@ -1,8 +1,11 @@
 #contact {
   background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
+    to bottom,
+    #1c1f27,
+    #1a1d24,
+    #171a22,
+    #15181f,
+    #13161d
   );
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
