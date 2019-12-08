@@ -1,12 +1,12 @@
 #about {
-  background-color: $primary-color;
+  background-color: #1c1f27; // $primary-color;
   background-image: linear-gradient(
     to top,
-    #026fe4,
-    #007bec,
-    #0287f3,
-    #1393f9,
-    #249fff
+    #292c36,
+    #262932,
+    #22252e,
+    #1f222b,
+    #1c1f27
   );
   color: $white-color;
   height: 100%;
@@ -77,31 +77,13 @@
           }
         }
 
-        .hero-link {
-          position: relative;
-          z-index: 1;
-          &::before {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            bottom: 0;
-            left: -0.25em;
-            right: -0.25em;
-            background-color: #6ffacc;
-            transform-origin: bottom center;
-            transform: scaleY(0.1);
-            transition: all 0.1s ease-in-out;
-          }
-
-          &:hover::before {
-            transform: scaleY(1);
-            background-color: hsla(160, 93%, 71%, 0.6);
-          }
-        }
-
         a {
-          color: #fff;
+          color: $primary-color;
+          text-decoration: underline;
+
+          &:hover {
+            color: $secondary-color;
+          }
         }
       }
     }

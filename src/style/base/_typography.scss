@@ -16,10 +16,12 @@ a:hover,
 a:visited,
 a:active {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 
 .section-title {
@@ -35,17 +37,17 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: $dark-blue-text !important;
+  color: $dark-blue-text;
 }
 
 .text-color-main {
   background-image: linear-gradient(
-    to right bottom,
-    $primary-color,
-    #007df2,
-    #0088f5,
-    #0992f8,
-    $secondary-color
+    to right,
+    #ff6561,
+    #fe5e5a,
+    #fd5654,
+    #fc4e4d,
+    #fb4546
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,5 +60,28 @@ a:hover {
 
   &:hover {
     transform: translateX(2px);
+  }
+}
+
+.text-color-sublink {
+  background-image: linear-gradient(
+    to right top,
+    #c9ced6,
+    #ccd1da,
+    #cfd4de,
+    #d2d8e2,
+    #d5dbe6
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  // Responsive text purple style
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: #d5dbe6;
+  }
+
+  &:hover {
+    transform: translateX(6px);
   }
 }
