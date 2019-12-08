@@ -16,10 +16,12 @@ a:hover,
 a:visited,
 a:active {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 
 .section-title {
