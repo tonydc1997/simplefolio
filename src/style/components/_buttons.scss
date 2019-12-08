@@ -25,19 +25,22 @@
 .cta-btn--hero {
   background-image: linear-gradient(
     to right top,
-    $primary-color,
-    #007df2,
-    #0088f5,
-    #0992f8,
-    $secondary-color
+    #e2e2e2,
+    #e9e9e9,
+    #f0f0f0,
+    #f8f8f8,
+    #ffffff
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid transparent;
   border-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
+    to right top,
+    #e2e2e2,
+    #e9e9e9,
+    #f0f0f0,
+    #f8f8f8,
+    #ffffff
   );
   border-image-slice: 1;
   margin-right: 4rem;
@@ -51,11 +54,11 @@
   &::after {
     background-image: linear-gradient(
       to right top,
-      $primary-color,
-      #007df2,
-      #0088f5,
-      #0992f8,
-      $secondary-color
+      #e2e2e2,
+      #e9e9e9,
+      #f0f0f0,
+      #f8f8f8,
+      #ffffff
     );
     // Responsive Button hero style
     @include respond(phone) {
@@ -64,7 +67,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $white-color;
+    -webkit-text-fill-color: $primary-color;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
