@@ -37,7 +37,19 @@
   color: white;
 
   &:hover {
-    transform: translateX(6px);
+    transform: translateY(-4px);
+  }
+}
+
+a.cta-btn--secondary {
+  background: transparent;
+  border: 2px solid $primary-color;
+  border-radius: 6px;
+  color: #ff7773;
+
+  &:hover {
+    background-color: hsla(2, 95%, 76%, 0.082);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   }
 }
 
