@@ -16,8 +16,9 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
+              outputPath: "assets",
               name: "[name].[hash].[ext]",
-              outputPath: "assets"
+              esModule: false
             }
           }
         ]
