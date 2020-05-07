@@ -43,6 +43,10 @@
       & p > a {
         color: $secondary-color;
       }
+
+      p {
+        max-width: 560px;
+      }
     }
 
     &__image {
