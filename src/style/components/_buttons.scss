@@ -24,17 +24,9 @@
 /* Hero Style */
 
 .cta-btn--primary {
-  background-image: linear-gradient(
-    to right,
-    #ff6561,
-    #fe5e5a,
-    #fd5654,
-    #fc4e4d,
-    #fb4546
-  );
+  background-color: hsl(162, 73%, 74%);
   border: 2px solid transparent;
   border-radius: 6px;
-  color: white;
 
   &:hover {
     transform: translateX(4px);
