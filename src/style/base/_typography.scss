@@ -16,12 +16,11 @@ a:hover,
 a:visited,
 a:active {
   text-decoration: none;
-  color: white;
+  color: hsl(176, 100%, 13%);
 }
 
 a:hover {
   transition: all 0.3s ease-in-out;
-  color: white;
 }
 
 .section-title {
@@ -41,16 +40,7 @@ a:hover {
 }
 
 .text-color-main {
-  background-image: linear-gradient(
-    to right,
-    #ff6561,
-    #fe5e5a,
-    #fd5654,
-    #fc4e4d,
-    #fb4546
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: hsl(166, 64%, 49%);
 
   // Responsive text purple style
   @include respond(phone) {
