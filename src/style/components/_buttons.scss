@@ -35,13 +35,12 @@
 
 a.cta-btn--secondary {
   background: transparent;
-  border: 2px solid $primary-color;
+  border: 2px solid hsl(166, 64%, 49%);
   border-radius: 6px;
-  color: #ff7773;
+  color: hsl(166, 64%, 49%);
 
   &:hover {
     background-color: hsla(2, 95%, 76%, 0.082);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   }
 }
 
