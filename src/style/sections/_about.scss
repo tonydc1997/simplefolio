@@ -1,5 +1,5 @@
 #about {
-  background-color: #1c1f27; // $primary-color;
+  background-color: #1c1f27;
   background-image: linear-gradient(
     to top,
     #292c36,
@@ -62,7 +62,6 @@
         }
 
         &--important {
-          background: darken($secondary-color, 1%);
           display: inline-block;
           font-style: italic;
           padding: 0 0.3rem;

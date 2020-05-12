@@ -36,20 +36,6 @@ a:hover {
   }
 }
 
-.dark-blue-text {
-  color: $dark-blue-text;
-}
-
 .text-color-main {
   color: hsl(166, 64%, 49%);
-
-  // Responsive text purple style
-  @include respond(phone) {
-    background-image: none;
-    -webkit-text-fill-color: $primary-color;
-  }
-
-  &:hover {
-    transform: translateX(2px);
-  }
 }
