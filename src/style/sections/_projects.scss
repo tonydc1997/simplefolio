@@ -1,6 +1,6 @@
 #projects {
-  background-color: #13161d; // $white-color;
-  color: white; // $dark-blue-text;
+  background-color: #13161d;
+  color: hsl(0, 0%, 97%);
   margin-top: -10rem;
   padding-top: 15rem;
 
@@ -40,8 +40,8 @@
         }
       }
 
-      & p > a {
-        color: $secondary-color;
+      & & p > a {
+        color: hsl(166, 64%, 49%);
       }
 
       p {
