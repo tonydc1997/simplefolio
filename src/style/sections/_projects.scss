@@ -40,8 +40,8 @@
         }
       }
 
-      & p > a {
-        color: $secondary-color;
+      & & p > a {
+        color: hsl(166, 64%, 49%);
       }
 
       p {
