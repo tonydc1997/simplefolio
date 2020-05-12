@@ -8,18 +8,18 @@
   }
 
   &__text {
-    color: #c1c1c1;
+    color: hsl(0, 0%, 69%);
     font-size: 1.3rem;
 
     a {
-      color: $primary-color;
+      color: hsl(166, 64%, 49%);
       font-size: 1.3rem;
       transition: all 0.2s;
       display: inline-block;
 
       &:hover,
       &:active {
-        color: $secondary-color;
+        color: hsl(164, 70%, 63%);
         font-weight: 700;
       }
     }
