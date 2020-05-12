@@ -8,7 +8,7 @@
     #1f222b,
     #1c1f27
   );
-  color: $white-color;
+  color: hsl(0, 0%, 97%);
   height: 100%;
   margin-top: 100vh;
   border-top: 0px;
@@ -78,11 +78,10 @@
         }
 
         a {
-          color: $primary-color;
-          text-decoration: underline;
+          color: hsl(166, 64%, 49%);
 
           &:hover {
-            color: $secondary-color;
+            color: hsl(164, 70%, 63%);
           }
         }
       }
